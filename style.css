@@ -1,0 +1,71 @@
+*, *:before, *:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #29262a;
+  color: #ede9dd;
+  font-family: 'helvetica neue';
+  -webkit-font-smoothing: antialiased;
+  line-height: 2.5rem;
+  letter-spacing: -0.0333333rem;
+}
+
+.intro {
+  padding: 1.5em;
+  background-color: black;
+  background-image: url('Assets/noise_trans.png');
+  background-position: center;
+  background-size:  contain;
+  background-repeat: no-repeat;
+  height: 30em;
+}
+
+.process {
+  padding: 3em;
+  background-image: url('Assets/test.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 30em;
+}
+
+.tech {
+  padding: 3em;
+  background-image: url('Assets/test2.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 30em;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+li {
+  list-style-type: none;
+}
+
+.game {
+  padding: 4em;
+}
+
+iframe {
+  width="200";
+  height="200";
+  align="right";
+}
